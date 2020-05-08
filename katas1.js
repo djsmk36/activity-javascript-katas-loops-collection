@@ -4,13 +4,14 @@
 ***
 **/
 
-  console.log('%cKATA 1 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
-  
-  let counter = 1
-  while (counter <= 20) {
-    console.log(counter)
-    counter += 1
-  }
+console.log('%cKATA 1 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
+
+
+let counter1 = 1
+while (counter1 <= 20) {
+  console.log(counter1)
+  counter1 += 1
+}
 
 
 
@@ -20,9 +21,21 @@
 ***
 ***/
 
-  console.log('%cKATA 02 RESULTS:', 'background: darkblue; color: white; font-weight: bold;') // These console.logs are just to help make the console log better organized and more readable
+console.log('%cKATA 02 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
+let counter2 = 2
+while (counter2 <= 20) {
+  console.log(counter2)
+  counter2 += 2
+}
 
-  /* Write your KATA 02 code in place of THIS comment. */
+
+
+
+
+
+// These console.logs are just to help make the console log better organized and more readable
+
+/* Write your KATA 02 code in place of THIS comment. */
 
 
 
@@ -32,9 +45,15 @@
 ***
 ***/
 
-  console.log('%cKATA 03 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
- 
-  /* Write your KATA 03 code in place of THIS comment. */
+console.log('%cKATA 03 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
+
+
+let counter3 = 1
+while (counter3 <= 20) {
+  console.log(counter3)
+  counter3 += 2
+}
+/* Write your KATA 03 code in place of THIS comment. */
 
 
 
@@ -44,9 +63,15 @@
 ***
 ***/
 
-  console.log('%cKATA 04 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
+console.log('%cKATA 04 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
 
-  /* Write your KATA 04 code in place of THIS comment. */
+let counter4 = 5
+while (counter4 <= 100) {
+  console.log(counter4)
+  counter4 += 5
+}
+
+/* Write your KATA 04 code in place of THIS comment. */
 
 
 
@@ -56,9 +81,18 @@
 ***
 ***/
 
-  console.log('%cKATA 05 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
+console.log('%cKATA 05 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
 
-  /* Write your KATA 05 code in place of THIS comment. */
+let counter5 = 1
+while (counter5 <= 100) {
+  const counter5IsPerfectSquare = Number.isInteger(Math.sqrt(counter5))
+  if (counter5IsPerfectSquare) {
+    console.log(counter5)
+  }
+
+  counter5 += 1
+}
+/* Write your KATA 05 code in place of THIS comment. */
 
 
 
@@ -68,9 +102,19 @@
 ***
 ***/
 
-  console.log('%cKATA 06 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
+console.log('%cKATA 06 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
 
-  /* Write your KATA 06 code in place of THIS comment. */
+
+let counter6 = 20
+while (counter6 >= 1) {
+  console.log(counter6)
+  counter6 -= 1
+}
+
+
+
+
+/* Write your KATA 06 code in place of THIS comment. */
 
 
 
@@ -80,9 +124,14 @@
 ***
 ***/
 
-  console.log('%cKATA 07 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
+console.log('%cKATA 07 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
 
-  /* Write your KATA 07 code in place of THIS comment. */
+let counter7 = 20
+while (counter7 >= 1) {
+  console.log(counter7)
+  counter7 -= 2
+}
+/* Write your KATA 07 code in place of THIS comment. */
 
 
 
@@ -92,9 +141,15 @@
 ***
 ***/
 
-  console.log('%cKATA 08 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
+console.log('%cKATA 08 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
 
-  /* Write your KATA 08 code in place of THIS comment. */
+let counter8 = 19
+while (counter8 >= 1) {
+  console.log(counter8)
+  counter8 -= 2
+}
+
+/* Write your KATA 08 code in place of THIS comment. */
 
 
 
@@ -104,9 +159,15 @@
 ***
 ***/
 
-  console.log('%cKATA 09 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
+console.log('%cKATA 09 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
+let counter9 = 100
+while (counter9 >= 1) {
+  console.log(counter9)
+  counter9 -= 5
+}
 
-  /* Write your KATA 09 code in place of THIS comment. */
+
+/* Write your KATA 09 code in place of THIS comment. */
 
 
 
@@ -116,11 +177,18 @@
 ***
 ***/
 
-  console.log('%cKATA 10 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
+console.log('%cKATA 10 RESULTS:', 'background: darkblue; color: white; font-weight: bold;')
+let counter10 = 100
+while (counter10 >= 1) {
+  const counter10IsPerfectSquare = Number.isInteger(Math.sqrt(counter10))
+  if (counter10IsPerfectSquare) {
+    console.log(counter10)
+  }
 
-  /* Write your KATA 10 code in place of THIS comment. */
+  counter10 -= 1
+}
+/* Write your KATA 10 code in place of THIS comment. */
 
 
 
 
-  
